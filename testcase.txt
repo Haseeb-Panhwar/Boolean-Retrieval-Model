@@ -1,31 +1,33 @@
-Confalonieri1|          done
-R.  (ignore)            done
-1Faculty                done
-Science,                done
-(AI)                    done
-ori-gins                done
-defini-tion,            done
-> (ignore)              done
-1|INTRODUCTION          done
-2021;11:e1391. wires.wiley.com/dmkd     done
-f2                      done
-https://doi.org/10.1002/widm.1391   done
-(s)he                   done
-EXPLANATION?            done
-�for                   done
-base�usually            done
-M�ller                  done
-D.,,                    done
-&                       done
-INASP/HINARI    
-[05/02/2024]            done
-x%                      done
-X,Z,�.�Thus,            done
-2019)CONFALONIERI           done
-use;                    done
-27th                    done
-human-in-the-loop?         done
-�RECSYS'11.             done
-Saarbr¨                     done
-“Clever Hans”               done
-AI’s                        done
+Confalonieri1| 1
+R. 1
+1Faculty 1
+Science, 1
+(AI) 1
+ori-gins 1
+defini-tion, 1
+> 1
+1|INTRODUCTION 1
+2021;11:e1391.	0
+wires.wiley.com/dmkd 0
+f2 1
+https://doi.org/10.1002/widm.1391 0
+(s)he 0
+EXPLANATION? 1
+�for 1
+base�usually 0
+M�ller 0
+D.,, 0
+& 1
+INASP/HINARI 0    
+[05/02/2024] 1
+x% 1
+X,Z,�.�Thus, 1
+2019)CONFALONIERI 1
+use; 1
+27th 0
+human-in-the-loop? 0
+�RECSYS'11. 0
+Saarbr¨ 1
+“Clever 1 
+ Hans” 1
+AI’s 1
