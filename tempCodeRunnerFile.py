@@ -1,0 +1,1 @@
+not cancer and not learning or not heart
