@@ -5,6 +5,9 @@ from nltk.stem import PorterStemmer
 
 
 class main:
+    total_tokens=0
+    total_terms=0
+    droppedP=0
     stop_words=[]
     ps = PorterStemmer()
     inverted_index = {}
@@ -63,9 +66,9 @@ class main:
                                         self.inverted_index[val][doc_id] = [index]
                                 else:
                                     self.inverted_index[val] = {doc_id: [index]}
-        print("Total Tokkens: ",count)
-        print("Number of terms:",len(self.inverted_index))
-        print("Tokkens drops: ",((count-len(self.inverted_index))/count)*100,"%")
+        self.total_tokens=count
+        self.total_terms=len(self.inverted_index)
+        self.droppedP=((count-len(self.inverted_index))/count)*100
 
 
     def intersectTerms(self,term1,term2):
@@ -111,8 +114,8 @@ class main:
         inverted_index_set = set(self.inverted_index[self.ps.stem(term)].keys())
         return list((set(self.docs)).difference(inverted_index_set))
         
-    def UserQuery(self):
-        user_input = (input("Enter query: ")).lower()
+    def UserQuery(self,val):
+        user_input = val.lower()
         user_input_list = user_input.split()
         intersection_list=[]
         inter_lists=[]
@@ -182,11 +185,12 @@ class main:
                     
 
     
-m=main()
-m.stemStopWords()
-m.buildInvertedIndex()
-print(m.inverseTerms('transformer'))
-print(m.UserQuery())
+# m=main()
+# m.stemStopWords()
+# m.buildInvertedIndex()
+# print(m.inverseTerms('transformer'))
+# val = input("Enter Query: ")
+# print(m.UserQuery(val))
 
 
 
